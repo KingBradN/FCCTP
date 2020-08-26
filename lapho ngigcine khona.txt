@@ -1,0 +1,128 @@
+-	ibe nokuphendula
+
+
+
+
+Get 4 videos
+
+
+
+https://www.youtube.com/watch?v=z4C3PXDwND0	20 May 2019
+https://www.youtube.com/watch?v=c4I8Rcv4ZNc 	29 Dec 2018
+https://www.youtube.com/watch?v=y1G3zw84XYY    	15 May 2017
+https://www.youtube.com/watch?v=4X1Iz8-P0RQ	18 Jan 2014
+https://www.youtube.com/watch?v=krEQoSabj-w	16 Feb 2014
+https://www.youtube.com/watch?v=-UkOcXRH-sw 	02 Apr 2010
+
+
+Some content(2/3 paragraphs)
+
+Ntsiki Biyela is a South African winemaker and businesswoman who owns and runs Aslina wines(link). Prior, she had been a principal winemaker at Stellekaya Wines, where Ntsiki became the first African female winemaker in South Africa.
+
+Ntsiki, shot to fame in 2004, shattering stereotypes about African people’s affinity for wine, and she now exports around the world.
+
+After 13 years in the wine scene, Ntsiki believes that the high capital demand industry is “big enough” for new entrants, but admits it is “not easy to crack”.
+
+“Other than the financial aspect of it, the wine-making process demands dedication, from dealing with the vine-growers, buyers and the consumers,” she advised. 
+
+	
+3 Tweets:
+
+
+https://twitter.com/Senzi_M/status/1293635906486915079		12 Aug 2020
+https://twitter.com/NoloyisoMtembu/status/1113332382428467200 	3 apr 2019
+https://twitter.com/HlamalaniMongwe/status/970882397683281923	6 Mar 2018
+
+
+social Media links
+
+Twitter: https://twitter.com/Ntsiki_Biyela
+facebook: https://www.facebook.com/ntsiki.biyela.1
+Instagram: https://www.instagram.com/nbiyela/
+Linkedin: https://www.linkedin.com/in/ntsiki-biyela-98a92ba/
+
+
+codepen.io/sheikh_ishaan/full/MWwyoBK
+
+
+CSS update:
+
+header {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1533906966484-a9c978a3f090?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #ff3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header::after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+}
+
+header * {
+    position: relative;
+    z-index: 1;
+}
+
+.............................
+
+nav a {
+    color: #ff1;
+    margin-left: 25px;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    border-bottom: 3px solid #ff3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(10px);
+    transition: transform 0.3s ease;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+nav a:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.....
+
+.video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+    margin: 20px auto 0;
+}
+
+@media(max-width: 500px) {
+    section {
+        padding: 20px;
+    }
+    #welcome-section {
+        text-align: center;
+    }
+    section h2 {
+        margin-top: 45px;
+    }
+}
+
