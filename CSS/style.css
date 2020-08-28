@@ -250,6 +250,7 @@ footer {
     #tribute-info p {
         width: 100%;
         justify-content: center;
+        text-align: center;
     }
     #popular .container {
         grid-template-columns: 1fr;
