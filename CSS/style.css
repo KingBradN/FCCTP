@@ -236,23 +236,26 @@ footer {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 10px;
     }
     nav,
     footer {
         width: 100%;
     }
-    #main .container,
-    {
+    #main .container {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+    #tribute-info p {
+        width: 100%;
+        justify-content: center;
     }
     #popular .container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
     }
-    #testimonials .container {
+    #testimonials .container .twitter-tweet {
         justify-content: center;
         margin: 0 auto;
     }
@@ -271,9 +274,6 @@ footer {
     span,
     .hide {
         display: none;
-    }
-    .twitter-tweet {
-        justify-content: center;
     }
 }
 
