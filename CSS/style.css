@@ -242,8 +242,11 @@ footer {
     footer {
         width: 100%;
     }
-    #main .container {
+    #main .container,
+    {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     #popular .container {
         grid-template-columns: 1fr;
@@ -262,8 +265,8 @@ footer {
         margin-bottom: 0;
     }
     #main .container img {
-        width: 15rem;
-        height: 10rem;
+        width: 100%;
+        height: auto;
     }
     span,
     .hide {
